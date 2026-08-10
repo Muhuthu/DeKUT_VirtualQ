@@ -66,6 +66,18 @@ This project emphasizes:
 - **Error prevention** — explicit confirm/cancel steps before joining or leaving a queue.
 - **Mobile-first navigation** — built and evaluated specifically for a smartphone context (touch targets, mobile device frame sizes), not adapted from a desktop layout.
 
+## Team Members
+
+| Name | Registration Number |
+|---|---|
+| Margaret Njeri | C025-01-0624/2023 |
+| Joe Mburu | C025-01-0626/2023 |
+| Diana Chepkorir | C025-01-0652/2023 |
+| William Macharia | C025-01-0616/2023 |
+| Neema Kimutai | C025-01-0669/2023 |
+| Peter Wanyoike | C025-01-0826/2022 |
+| Faith Chebet | C025-01-0663/2023 |
+| Daisy Jeruto | C025-01-0653/2023 |
 
 **GitHub Repository:** `[text](https://github.com/Muhuthu/DeKUT_VirtualQ.git)`
 
