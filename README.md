@@ -1,10 +1,10 @@
 # Virtual Queue Management Mobile App (DeKUT VirtualQ)
 
-A mobile application prototype that lets university students and staff join, track, and manage virtual queues at campus service points — the registry, finance office, clinic, and accommodation office — without having to physically stand in line.
+A mobile application prototype that lets university students and staff join, track, and manage virtual queues at campus service points — the registry, finance office, clinic, and accommodation office without having to physically stand in line.
 
 This project was designed for the **Human–Computer Interaction (HCI)** module group term assignment, using **Figma** for wireframing/prototyping and **GitHub** for collaboration, documentation, and submission.
 
-> **Note on tooling:** The assignment brief specifies Balsamiq as the default tool. Our group  choose  to use Figma instead .
+> **Note on tooling:** The assignment brief specifies Balsamiq as the default tool. Our group  chose  to use Figma instead .
 
 > **Status:** 🚧 In progress — wireframe screens are built; user research, personas, and usability testing are still pending. See [Project Status](#project-status) below.
 
@@ -27,7 +27,7 @@ This project was designed for the **Human–Computer Interaction (HCI)** module 
 
 ## Problem Statement
 
-Students at university service points — registry, finance, clinic, and accommodation offices — routinely lose significant time standing in physical queues with no visibility into their position, expected wait time, or whether the office is even open. This creates wasted time, overcrowding at service points, and anxiety around missing one's turn. There is currently no simple mobile way for a student to join a queue remotely, track their position in real time, and be notified when it's nearly their turn.
+Students at university service points like registry, finance, clinic, and accommodation offices ,routinely lose significant time standing in physical queues with no visibility into their position, expected wait time, or whether the office is even open. This creates wasted time, overcrowding at service points, and anxiety around missing one's turn. There is currently no simple mobile way for a student to join a queue remotely, track their position in real time, and be notified when it's nearly their turn.
 
 ## Objectives
 
@@ -97,7 +97,7 @@ Dekut_VitualQ/
 The Figma prototype currently consists of **16 linked mobile screens** (exceeding the 12-screen minimum), covering:
 
 - **Auth & onboarding** (4 screens) — Splash, Login, Sign-Up, Onboarding Tutorial
-- **Home & browse** (2 screens) — Home/Dashboard, Service Point Detail
+- **Home & browse** (3 screens) — Home/Dashboard, Service Point Detail,confirmation of the service
 - **Queue core** (5 screens) — Confirm Join, Queue Position/Ticket, Live Update State, Turn Notification, Leave Queue Confirmation
 - **Post-queue** (2 screens) — Service Completion/Check-In, Queue History
 - **Account** (3 screens) — Notification Settings, Profile/Account, Empty/Error State
