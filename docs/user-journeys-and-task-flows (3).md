@@ -1,6 +1,5 @@
 # User Journeys & Task Flows — Virtual Queue Management App
-
-*Covers the "user journeys, task flows" evidence required in `docs/`, alongside `requirements.md` and `personas.md`. These two diagrams map every screen in the design (see `wireframes/`) into complete end-to-end flows for both the student and staff sides of the app.*
+These two diagrams map every screen in the design (see `wireframes/`) into complete end-to-end flows for both the student and staff sides of the app.*
 
 ---
 
