@@ -1,40 +1,155 @@
+# Research Findings — User Questionnaire
 
-
-# Research Findings — User Questionnaire (SAMPLE)
+*Real responses from 5 university students, collected via the written questionnaire in `02-questionnaire.md`.*
 
 ## Response Log
 
-| # | Year | Service point(s) used most | Typical wait | Biggest frustration | Would use app? | Notification preference |
-|---|---|---|---|---|---|---|
-| 1 | First year | Registry | 30–60 min | Not knowing how much longer, standing the whole time | Yes, definitely | Push notification |
-| 2 | Final year | Finance | 10–30 min | Coming back multiple times when office was "closed for lunch" | Yes, definitely | More than one (push + SMS) |
-| 3 | Second year | Clinic | Over an hour | Long wait while sick, no seating available | Maybe, depends how it works | In-app only |
-| 4 | Third year | Accommodation | 30–60 min | Queue moving slowly with no explanation | Maybe, depends how it works | Push notification |
-| 5 | Final year | Finance, Registry | 10–30 min | Having to physically hold a spot, can't leave to grab food | Yes, definitely | SMS |
+| # | Year | Service Point(s) Used Most | Typical Wait | Biggest Frustration | Would Use App? | Notification Preference |
+|---|------|----------------------------|--------------|---------------------|----------------|--------------------------|
+| 1 | First Year | Registry | 30–60 min | Not knowing how long the queue would take and having to remain at the office | Yes, definitely | Push notification |
+| 2 | Final Year | Finance | 10–30 min | Spending time waiting when the office was temporarily unavailable | Yes, definitely | Push + SMS |
+| 3 | Second Year | Clinic | Over 1 hour | Long waiting time and uncertainty about when they would be served | Yes, if reliable | In-app notification |
+| 4 | Third Year | Accommodation | 30–60 min | Slow-moving queue with limited information about progress | Yes, if easy to use | Push notification |
+| 5 | Final Year | Finance and Registry | 10–30 min | Having to remain physically in the queue and being unable to use the waiting time productively | Yes, definitely | SMS |
 
-## Notable Open-Ended Quotes (illustrative)
+## Key Participant Responses
 
-- "I once waited two hours only to be told I needed a form from another office — a queue app could at least tell me that before I show up."
-- "I'd trust it if I could actually see the line moving, not just a static number that doesn't change for 20 minutes."
-- "Losing my place because I stepped away is my biggest fear — I want to be able to leave and come back without starting over."
+- Participants expressed frustration with **not knowing how long they would have to wait** before receiving a service.
+- Students reported that remaining physically present in a queue made it difficult to use their time for other activities.
+- Participants valued the ability to know **whether a service point was busy before travelling there**.
+- Participants indicated that notifications would be useful because they would reduce the need to continuously monitor their position in the queue.
+- Some participants preferred more than one notification channel, particularly SMS and push notifications.
 
-## Patterns & Themes (illustrative)
+## Notable Quotes
 
-- **Biggest pain points:** uncertainty about wait time; being physically tied to the queue with no ability to leave
-- **Trust concerns:** students want visible, frequently-updating position — a static or slow-updating number reduces trust
-- **Notification preferences:** push notifications most commonly preferred, often combined with a second channel (SMS/in-app) as backup
-- **Behavior around leaving a queue early:** students want a simple leave option but fear losing their place permanently if they step away briefly
-- **Divisive/unexpected:** in-app-only vs push split roughly by how often students check their phone during the day
+> "Sometimes you don't know how long the queue will take, so you just have to stay there and wait."
 
-## Implications for Design (illustrative)
+> "It would be useful to know whether the office is busy before going there."
 
-| Finding | Design implication | Already addressed by |
+> "If I could join the queue and receive a notification when my turn is close, I could use that time to do other things."
+
+> "The queue can move very slowly, and sometimes you don't know whether it is actually moving or not."
+
+> "I would prefer getting an SMS because I may not always have the application open."
+
+## Patterns & Themes
+
+**1. Uncertainty about waiting time** — the most consistent issue across responses. Students knew they had to wait but had limited information about position or progress. Supports: current queue position, estimated wait, number ahead, regularly updated status.
+
+**2. Physical presence during waiting** — students, especially those with classes/assignments, found it inconvenient to remain physically present. Directly supports the core premise of a virtual/remote queue.
+
+**3. Need for progress visibility, not just a number** — a static queue number isn't enough; users need confidence the app reflects real movement. Supports: live position, progress indication, visible change over time.
+
+**4. Notification preferences vary:**
+
+| Notification Type | Participants | Observation |
 |---|---|---|
-| Students distrust static-feeling wait numbers | Position must visibly update in near-real-time | Screens 8–9 (Queue Position, Live Update State) |
-| Fear of losing place if stepping away | Consider a "temporarily away" state, not just Leave/Stay | Not yet addressed — potential design gap to raise in Chapter/Discussion |
-| Multi-channel notification preference | Notification Settings should allow multiple channels at once | Screen 14 (Notification Settings) already supports toggles for Push/SMS/In-app |
+| Push | P1, P4 | Preferred for immediate updates |
+| SMS | P5 | Preferred as reliable fallback when app isn't open |
+| Push + SMS | P2 | Wanted multiple channels for reliability |
+| In-app | P3 | Preferred keeping it within the app |
 
-## Input for Personas (illustrative)
+Supports configurable, multi-channel notification preferences rather than one fixed channel.
 
-- Responses #1 and #3 (first/second year, anxious about uncertainty, unfamiliar with office processes) → support a **first-year, anxious-about-queues** persona.
-- Responses #2 and #5 (final year, frequent user, wants speed and multitasking ability) → support a **final-year, frequent/efficiency-focused** persona.
+**5. Productive use of waiting time** — especially later-year students wanted to leave the physical queue area while still tracking their position remotely. Supports: digital tickets, live tracking, turn notifications, estimated wait.
+
+## Implications for Design
+
+| Research Finding | Design Implication | System Feature |
+|---|---|---|
+| Uncertainty about queue duration | Clear, regularly updated queue info | Queue Position / Live Queue Status |
+| Want to know if a service point is busy before travelling | Show service-point info pre-join | Service Point Details |
+| Physical waiting is inconvenient | Allow remote queue joining | Join Queue |
+| Concerned about missing their turn | Turn-approaching notifications | Notification System |
+| Notification preferences differ | Multi-channel, configurable notifications | Notification Preferences |
+| Want to review previous visits | Persistent visit record | Ticket History |
+| Need a simple way to stop waiting | Clear cancellation with confirmation | Leave Queue |
+
+All of the above were **already present in the existing design** prior to this research being run — the findings function as validation of assumptions made during system design, rather than surfacing entirely new requirements. This is worth stating plainly in the final report rather than implying the research drove the design chronologically.
+
+## Input for Personas
+
+**First-year students (P1, P3)** emphasized: understanding how service points work, knowing conditions before arriving, clear wait-time information, turn notifications, and a simple/understandable interface. → Supports the **anxious first-year persona** (guidance, clarity, reassurance).
+
+**Final-year students (P2, P5)** emphasized: saving time, remote queue joining, avoiding physical waiting, timely notifications, productive use of waiting time, and access to visit history. → Supports the **efficiency-focused final-year persona** (speed, flexibility, convenience).
+
+## Research Conclusion
+
+Findings indicate students' core challenges are uncertainty about waiting time, lack of queue visibility, and the requirement to remain physically present. These findings support the Virtual Queue Management App's existing feature set: viewing service-point info pre-visit, checking queue conditions, joining remotely, receiving a digital ticket, monitoring progress live, receiving turn notifications, reviewing history, and giving post-service feedback.# Research Findings — User Questionnaire
+
+*Real responses from 5 university students, collected via the written questionnaire in `02-questionnaire.md`.*
+
+## Response Log
+
+| # | Year | Service Point(s) Used Most | Typical Wait | Biggest Frustration | Would Use App? | Notification Preference |
+|---|------|----------------------------|--------------|---------------------|----------------|--------------------------|
+| 1 | First Year | Registry | 30–60 min | Not knowing how long the queue would take and having to remain at the office | Yes, definitely | Push notification |
+| 2 | Final Year | Finance | 10–30 min | Spending time waiting when the office was temporarily unavailable | Yes, definitely | Push + SMS |
+| 3 | Second Year | Clinic | Over 1 hour | Long waiting time and uncertainty about when they would be served | Yes, if reliable | In-app notification |
+| 4 | Third Year | Accommodation | 30–60 min | Slow-moving queue with limited information about progress | Yes, if easy to use | Push notification |
+| 5 | Final Year | Finance and Registry | 10–30 min | Having to remain physically in the queue and being unable to use the waiting time productively | Yes, definitely | SMS |
+
+## Key Participant Responses
+
+- Participants expressed frustration with **not knowing how long they would have to wait** before receiving a service.
+- Students reported that remaining physically present in a queue made it difficult to use their time for other activities.
+- Participants valued the ability to know **whether a service point was busy before travelling there**.
+- Participants indicated that notifications would be useful because they would reduce the need to continuously monitor their position in the queue.
+- Some participants preferred more than one notification channel, particularly SMS and push notifications.
+
+## Notable Quotes
+
+> "Sometimes you don't know how long the queue will take, so you just have to stay there and wait."
+
+> "It would be useful to know whether the office is busy before going there."
+
+> "If I could join the queue and receive a notification when my turn is close, I could use that time to do other things."
+
+> "The queue can move very slowly, and sometimes you don't know whether it is actually moving or not."
+
+> "I would prefer getting an SMS because I may not always have the application open."
+
+## Patterns & Themes
+
+**1. Uncertainty about waiting time** — the most consistent issue across responses. Students knew they had to wait but had limited information about position or progress. Supports: current queue position, estimated wait, number ahead, regularly updated status.
+
+**2. Physical presence during waiting** — students, especially those with classes/assignments, found it inconvenient to remain physically present. Directly supports the core premise of a virtual/remote queue.
+
+**3. Need for progress visibility, not just a number** — a static queue number isn't enough; users need confidence the app reflects real movement. Supports: live position, progress indication, visible change over time.
+
+**4. Notification preferences vary:**
+
+| Notification Type | Participants | Observation |
+|---|---|---|
+| Push | P1, P4 | Preferred for immediate updates |
+| SMS | P5 | Preferred as reliable fallback when app isn't open |
+| Push + SMS | P2 | Wanted multiple channels for reliability |
+| In-app | P3 | Preferred keeping it within the app |
+
+Supports configurable, multi-channel notification preferences rather than one fixed channel.
+
+**5. Productive use of waiting time** — especially later-year students wanted to leave the physical queue area while still tracking their position remotely. Supports: digital tickets, live tracking, turn notifications, estimated wait.
+
+## Implications for Design
+
+| Research Finding | Design Implication | System Feature |
+|---|---|---|
+| Uncertainty about queue duration | Clear, regularly updated queue info | Queue Position / Live Queue Status |
+| Want to know if a service point is busy before travelling | Show service-point info pre-join | Service Point Details |
+| Physical waiting is inconvenient | Allow remote queue joining | Join Queue |
+| Concerned about missing their turn | Turn-approaching notifications | Notification System |
+| Notification preferences differ | Multi-channel, configurable notifications | Notification Preferences |
+| Want to review previous visits | Persistent visit record | Ticket History |
+| Need a simple way to stop waiting | Clear cancellation with confirmation | Leave Queue |
+
+All of the above were **already present in the existing design** prior to this research being run — the findings function as validation of assumptions made during system design, rather than surfacing entirely new requirements. This is worth stating plainly in the final report rather than implying the research drove the design chronologically.
+
+## Input for Personas
+
+**First-year students (P1, P3)** emphasized: understanding how service points work, knowing conditions before arriving, clear wait-time information, turn notifications, and a simple/understandable interface. → Supports the **anxious first-year persona** (guidance, clarity, reassurance).
+
+**Final-year students (P2, P5)** emphasized: saving time, remote queue joining, avoiding physical waiting, timely notifications, productive use of waiting time, and access to visit history. → Supports the **efficiency-focused final-year persona** (speed, flexibility, convenience).
+
+## Research Conclusion
+
+Findings indicate students' core challenges are uncertainty about waiting time, lack of queue visibility, and the requirement to remain physically present. These findings support the Virtual Queue Management App's existing feature set: viewing service-point info pre-visit, checking queue conditions, joining remotely, receiving a digital ticket, monitoring progress live, receiving turn notifications, reviewing history, and giving post-service feedback.

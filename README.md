@@ -106,21 +106,11 @@ Dekut_VitualQ/
 
 ## Prototype
 
-The Figma prototype currently consists of **16 linked mobile screens** (exceeding the 12-screen minimum), covering:
-
-- **Auth & onboarding** (4 screens) — Splash, Login, Sign-Up, Onboarding Tutorial
-- **Home & browse** (3 screens) — Home/Dashboard, Service Point Detail,confirmation of the service
-- **Queue core** (5 screens) — Confirm Join, Queue Position/Ticket, Live Update State, Turn Notification, Leave Queue Confirmation
-- **Post-queue** (2 screens) — Service Completion/Check-In, Queue History
-- **Account** (3 screens) — Notification Settings, Profile/Account, Empty/Error State
-
-Three complete user scenarios are supported end-to-end through the linked screens:
-
-1. **Join and Get Served** (happy path)
-2. **Join Then Leave Early**
-3. **Queue is Long, Switch Service Point**
-
-Full scenario walkthroughs and the screen-by-screen navigation table are in `docs/Virtual_Queue_App_Screen_Map.docx`.
+The Figma prototype currently consists of **16 linked mobile and staff-dashboard screens** (well beyond the 12-screen minimum), organized around a 9-section Information Architecture: Authentication, Home Dashboard, Service Points & Services, Queue Experience, Notifications & Alerts, History, Profile, Feedback & Support, and More — plus a parallel Staff/Service Point flow (login, active queue, call next, verify & serve, complete service, exceptions, analytics).
+ 
+Full system flow, IA structure, and screen-by-screen detail are documented in `docs/` (system flowchart, IA diagram, and `requirements.md`).
+ 
+Three complete user scenarios are supported end-to-end through the linked screens, covering joining a queue, tracking live position, leaving early, and completing service.
 
 
 

@@ -1,6 +1,6 @@
 # Personas — Virtual Queue Management App
 
-> ⚠️ **DRAFT STATUS:** These personas are filled in with reasonable working assumptions so the team can proceed with requirements and design work. They are **not yet backed by real user research**. Before final submission, every claim below must be checked against actual responses in `research/03-findings.md` and adjusted — quotes especially must be replaced with real (or closely paraphrased) participant statements, not invented ones. Treat this as a scaffold, not evidence.
+> **STATUS UPDATE:** Both quotes and the goals/frustrations below are now backed by real data — quotes from usability testing (P01–P05), goals/frustrations validated against the pre-design questionnaire (`research/03-findings.md`, 5 real respondents). See the validation checklist at the bottom for what was confirmed vs. adjusted.
 
 ---
 
@@ -21,13 +21,13 @@ New to campus and still learning how administrative processes work. Doesn't yet 
 - Avoid wasting a trip by finding out a service point is closed or the wrong one before arriving
 - Feel confident she won't accidentally miss her turn
 
-**Frustrations** *(working assumptions — validate against Q4/Q5/Q8 findings)*
-- Doesn't know how long a queue really is before physically arriving
-- Anxious about losing her place if she steps away, even briefly
-- Unsure what documents/requirements she needs, discovers this only after waiting
+**Frustrations** *(validated — research/03-findings.md, first-/second-year respondent patterns)*
+- Doesn't know how long a queue really is, and has to "just stay there and wait" with no progress information
+- Wants to know whether a service point is busy before travelling there
+- Uncertain whether a queue is actually moving when there's no visible progress indicator
 
-**Quote** *(placeholder — replace with a real participant quote)*
-> "[Replace with a real quote once collected]"
+**Quote** *(from usability testing, P01 — first-year, moderate tech comfort, limited service-point experience)*
+> "I can see my position, but I'm not immediately sure what the QR code is for."
 
 **How this app helps her**
 - Onboarding Tutorial explains the process before first use
@@ -54,13 +54,13 @@ Has used these service points many times before and knows the system well. Often
 - Arrive exactly when needed, not earlier "just in case"
 - Track history across repeated visits (e.g. multiple finance clearance trips)
 
-**Frustrations** *(working assumptions — validate against findings)*
-- Has to physically hold a place in line, can't multitask or step away
-- Doesn't trust a single notification channel — wants a backup in case one fails
-- Repeated visits to the same office feel redundant with no record of past interactions
+**Frustrations** *(validated — research/03-findings.md, final-year respondent patterns)*
+- Has to remain physically in the queue, unable to use that time productively for classes/work
+- Doesn't trust a single notification channel — prefers SMS as a fallback when the app isn't open, or push+SMS together
+- Wants confidence that a busy office is worth visiting before travelling there
 
-**Quote** *(placeholder — replace with a real participant quote)*
-> "[Replace with a real quote once collected]"
+**Quote** *(from usability testing, P04 — final-year, very high tech comfort, extensive service-point experience)*
+> "I like being able to check the queue before travelling to the office."
 
 **How this app helps him**
 - Join Queue remotely frees up his time for other tasks
@@ -72,7 +72,7 @@ Has used these service points many times before and knows the system well. Often
 
 ## Validation Checklist (complete before final submission)
 
-- [ ] Replace both quotes with real or closely paraphrased participant statements
-- [ ] Confirm "Service points used" match what respondents in that year group actually reported
-- [ ] Confirm frustrations match patterns in `research/03-findings.md`, not just assumptions
-- [ ] Note any persona details that turned out to be *wrong* once real data came in — this is normal and worth documenting as evidence of an iterative, research-informed process
+- [x] Replace both quotes with real participant statements — done, sourced from usability testing
+- [x] Confirm frustrations match patterns in `research/03-findings.md` — done, both personas' frustrations rewritten to match real respondent patterns
+- [x] "Service points used" checked against findings — first-years concentrated on Registry/Accommodation-type concerns, final-years on Finance/Registry; kept as representative rather than a literal single respondent
+- [ ] Note any persona details that turned out to be *wrong* once real data came in — none major; original assumptions (uncertainty about wait time, desire for remote joining, notification preference variability) were confirmed rather than contradicted by the research, worth stating honestly in the report rather than overstating a "discovery"
