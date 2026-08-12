@@ -29,7 +29,14 @@ This project was designed for the **Human–Computer Interaction (HCI)** module 
 
 Students at university service points like registry, finance, clinic, and accommodation offices ,routinely lose significant time standing in physical queues with no visibility into their position,[...]
 
-![Problem statement — example queue screenshot](wireframes/problem_statement.png)
+### Visuals
+
+<p align="center">
+  <img src="wireframes/problem_statement.png" alt="Problem statement — example queue screenshot" width="420" style="margin-right:16px;" />
+  <img src="wireframes/project_timeline.png" alt="Project timeline" width="420" />
+</p>
+
+*Figure: left — problem statement / example queue screenshot; right — project timeline.*
 
 ## Objectives
 
