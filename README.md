@@ -31,12 +31,18 @@ Students at university service points like registry, finance, clinic, and accomm
 
 ### Visuals
 
-<p align="center">
-  <img src="wireframes/problem_statement.png" alt="Problem statement — example queue screenshot" width="420" style="margin-right:16px;" />
-  <img src="wireframes/project_timeline.png" alt="Project timeline" width="420" />
+<p align="">
+  <img src="wireframes/problem_statement.png" alt="Problem statement — example queue screenshot" style="margin-right:16px;" />
 </p>
 
-*Figure: left — problem statement / example queue screenshot; right — project timeline.*
+*Figure: problem statement *
+
+<p align="">
+  <img src="wireframes/project_timeline.png" alt="Project timeline"  />
+</p>
+
+
+*Figure:  project timeline.*
 
 ## Objectives
 
