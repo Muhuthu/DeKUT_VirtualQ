@@ -35,7 +35,7 @@ Students at university service points like registry, finance, clinic, and accomm
   <img src="wireframes/problem_statement.png" alt="Problem statement — example queue screenshot" style="margin-right:16px;" />
 </p>
 
-*Figure: problem statement *
+*Figure: problem statement.*
 
 <p align="">
   <img src="wireframes/project_timeline.png" alt="Project timeline"  />
