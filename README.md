@@ -78,6 +78,7 @@ This project emphasizes:
 | Peter Wanyoike | C025-01-0826/2022 |
 | Faith Chebet | C025-01-0663/2023 |
 | Daisy Jeruto | C025-01-0653/2023 |
+| Ian Muhuthu | C025-01-0646/2023 |
 
 **GitHub Repository:** `[text](https://github.com/Muhuthu/DeKUT_VirtualQ.git)`
 
