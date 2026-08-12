@@ -1,8 +1,8 @@
 # Virtual Queue Management Mobile App (DeKUT VirtualQ)
 
-A mobile application prototype that lets university students and staff join, track, and manage virtual queues at campus service points — the registry, finance office, clinic, and accommodation office without having to physically stand in line.
+A mobile application prototype that lets university students and staff join, track, and manage virtual queues at campus service points — the registry, finance office, clinic, and accommodation of[...]
 
-This project was designed for the **Human–Computer Interaction (HCI)** module group term assignment, using **Figma** for wireframing/prototyping and **GitHub** for collaboration, documentation, and submission.
+This project was designed for the **Human–Computer Interaction (HCI)** module group term assignment, using **Figma** for wireframing/prototyping and **GitHub** for collaboration, documentation, a[...]
 
 > **Note on tooling:** The assignment brief specifies Balsamiq as the default tool. Our group  chose  to use Figma instead .
 
@@ -27,7 +27,9 @@ This project was designed for the **Human–Computer Interaction (HCI)** module 
 
 ## Problem Statement
 
-Students at university service points like registry, finance, clinic, and accommodation offices ,routinely lose significant time standing in physical queues with no visibility into their position, expected wait time, or whether the office is even open. This creates wasted time, overcrowding at service points, and anxiety around missing one's turn. There is currently no simple mobile way for a student to join a queue remotely, track their position in real time, and be notified when it's nearly their turn.
+Students at university service points like registry, finance, clinic, and accommodation offices ,routinely lose significant time standing in physical queues with no visibility into their position,[...]
+
+![Problem statement — example queue screenshot](wireframes/problem_statement.png)
 
 ## Objectives
 
@@ -60,7 +62,7 @@ Students at university service points like registry, finance, clinic, and accomm
 
 This project emphasizes:
 
-- **Visibility of system status** — the queue position screen and live-update states (screens 8–10) are deliberately split into distinct states to make position changes and system feedback obvious to the user.
+- **Visibility of system status** — the queue position screen and live-update states (screens 8–10) are deliberately split into distinct states to make position changes and system feedback obv[...]
 - **User feedback** — confirmation screens, toasts, and banners for key actions (joining, leaving, arriving).
 - **Consistency** — a shared bottom tab bar and consistent color coding for "confirm" vs "leave/cancel" actions across all screens.
 - **Error prevention** — explicit confirm/cancel steps before joining or leaving a queue.
@@ -107,7 +109,7 @@ Dekut_VitualQ/
 
 ## Prototype
 
-The Figma prototype currently consists of **16 linked mobile and staff-dashboard screens** (well beyond the 12-screen minimum), organized around a 9-section Information Architecture: Authentication, Home Dashboard, Service Points & Services, Queue Experience, Notifications & Alerts, History, Profile, Feedback & Support, and More — plus a parallel Staff/Service Point flow (login, active queue, call next, verify & serve, complete service, exceptions, analytics).
+The Figma prototype currently consists of **16 linked mobile and staff-dashboard screens** (well beyond the 12-screen minimum), organized around a 9-section Information Architecture: Authenticati[...]
  
 Full system flow, IA structure, and screen-by-screen detail are documented in `docs/` (system flowchart, IA diagram, and `requirements.md`).
  
