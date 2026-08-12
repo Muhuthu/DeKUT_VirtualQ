@@ -116,7 +116,7 @@ Three complete user scenarios are supported end-to-end through the linked screen
 
 ## How to View the Prototype
 
-1. Open the Figma file link: `[text](https://www.figma.com/design/gc7v0azzDMVOoUiILQ1zK8/DeKUT-VirtualQ---Interactive-Prototype?node-id=0-1&t=Kh1ouPY7iIXVN0bj-1)`
+1. Open the Figma file link: `(https://www.figma.com/design/gc7v0azzDMVOoUiILQ1zK8/DeKUT-VirtualQ---Interactive-Prototype?node-id=0-1&t=Kh1ouPY7iIXVN0bj-1)`
 2. Switch to **Present** mode and start from screen **1 – Splash Screen**; use the linked hotspots to click through the flows.
 3. To follow a specific scenario, see the step-by-step walkthroughs in `docs/Virtual_Queue_App_Screen_Map.docx`, Section 4.
 4. Static exports/screenshots of each screen are also available in `wireframes/` for quick review without opening Figma.
